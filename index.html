@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/590c20ded1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital@0;1&family=Source+Sans+Pro:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png">
+
+
+    <title>Monticello</title>
+
+    <script src="./js/maps_api.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="content">
+            <nav class="nav" id="nav">
+                <div class="logo">
+                    <a href="./">
+                        <img src="./assets/img/logo.png" alt="logo">
+                    </a>
+                </div>
+
+
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a href="#about" class="menu__link scroll" id="sec-1">About us</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#news" class="menu__link scroll" id="sec-2">News</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#projects" class="menu__link scroll" id="sec-3">Projects</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#contact" class="menu__link scroll" id="sec-4">Contact</a>
+                    </li>
+                </ul>
+
+                <ul class="social social-header">
+                    <li class="social__item">
+                        <a href="#" class="social__link">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+
+                    <li class="social__item">
+                        <a href="#" class="social__link">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+
+                    <li class="social__item">
+                        <a href="#" class="social__link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+
+        <div class="swiper swiper1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <h2 class="banner__title">SIMPLE & MODERN</h2>
+                    <h4 class="banner__subtitle">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h4>
+                </div>
+                <div class="swiper-slide">
+                    <h2 class="banner__title">CLEAN LINES</h2>
+                    <h4 class="banner__subtitle">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h4>
+                </div>
+                <div class="swiper-slide">
+                    <h2 class="banner__title">TIMELESS DESIGN</h2>
+                    <h4 class="banner__subtitle">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h4>
+                </div>
+                <div class="swiper-slide">
+                    <h2 class="banner__title">BEAUTY AND FUNCTIONALITY</h2>
+                    <h4 class="banner__subtitle">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h4>
+                </div>
+                <div class="swiper-slide">
+                    <h2 class="banner__title">DESIGN FOR YOUR LIFESTYLE</h2>
+                    <h4 class="banner__subtitle">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h4>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="scroll__wrapper">
+            <a href="#about" class="scroll__link scroll">
+                <i class="fa-solid fa-chevron-down scroll__arrow"></i>
+            </a>
+        </div>
+
+
+    </header>
+    <main>
+        <section id="about" class="section about">
+            <h3 class="section__title">WHAT WE DO</h3>
+            <div class="about__wrapper">
+                <div class="img-holder">
+                    <img src="./assets/img/img-1.jpg" alt="Joel Filipe architecture" class="about__image">
+                </div>
+                <div class="about__content">
+                    <h4 class="heading subtitle">ONE WORLD</h4>
+                    <h3 class="heading title">TRADE CENTER</h3>
+                    <p class="desc">Increasing prosperity in our lives can be accomplished by having the right frame of
+                        mind. The truth is, our thoughts are very powerful.</p>
+                    <a href="#" class="button">MORE DETAILS</a>
+                         <p class="address"><i class="fa-solid fa-location-dot"></i>
+                            New York City, United States - 1776 feet
+                        </p>
+                </div>
+            </div>
+
+            <div class="about__wrapper about__wrapper-reverse">
+                <div class="img-holder img-holder-reverse">
+                    <img src="./assets/img/img-2.jpg" alt="Joel Filipe architecture"
+                        class="about__image about__image-reverse">
+                </div>
+                <div class="about__content about__content-reverse">
+                    <h4 class="heading subtitle">INTERNATIONAL</h4>
+                    <h3 class="heading title">COMMERCE CENTRE</h3>
+                    <p class="desc">Successful businesses have many things in common, today we’ll look at the big ‘R’ of
+                        recognition and how a digital advertising network may help.</p>
+                    <a href="#" class="button">MORE DETAILS</a>
+                        <p class="address"><i class="fa-solid fa-location-dot"></i>
+                            Hong Kong - 1588 feet
+                        </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="news" class="section news">
+            <h3 class="section__title">LATEST NEWS</h3>
+            <div class="slick slider">
+
+                <div class="slick-slider slider__item">
+                    <div>
+                        <img src="./assets/img/img-3.jpg" alt="" class="slider__img">
+                    </div>
+                    <div class="slider__content">
+                        <h4 class="heading subtitle subtitle-bold">SEE THE UNMATCHED BEAUTY OF THE GREAT.</h4>
+                        <p class="desc">
+                            <a href="#">
+                                Free directories: directories are perfect for customers that are searching for...
+                            </a>
+                        </p>
+                        <div class="slider__add">
+                            <img src="./assets/img/author1.jpg" alt="" class="slider__portrait">
+                            <div class="slider__info">
+                                <p class="author">ALJA BRUN</p>
+                                <p class="date">20 Jan 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-slider slider__item">
+                    <div>
+                        <img src="./assets/img/img-4.jpg" alt="" class="slider__img">
+                    </div>
+                    <div class="slider__content">
+                        <h4 class="heading subtitle subtitle-bold">EFFECTIVE ADVERTISING POINTERS.</h4>
+                        <p class="desc">
+                            <a href="#">
+                                Having a home based business is a wonderful asset to your life...
+                            </a>
+                        </p>
+                        <div class="slider__add">
+                            <img src="./assets/img/author2.jpg" alt="" class="slider__portrait">
+                            <div class="slider__info">
+                                <p class="author">DOMINIC FREEMAN</p>
+                                <p class="date">13 Dec 2019</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-slider slider__item">
+                    <div>
+                        <img src="./assets/img/img-5.jpg" alt="" class="slider__img">
+                    </div>
+                    <div class="slider__content">
+                        <h4 class="heading subtitle subtitle-bold">HYPNOTIZE YOURSELF INTO THE GHOST.</h4>
+                        <p class="desc">
+                            <a href="#">
+                                There are many things that are important to catalog design...
+                            </a>
+                        </p>
+                        <div class="slider__add">
+                            <img src="./assets/img/author3.jpg" alt="" class="slider__portrait">
+                            <div class="slider__info">
+                                <p class="author">ALICE WARD</p>
+                                <p class="date">30 Nov 2019</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-slider slider__item">
+                    <div>
+                        <img src="./assets/img/img-3.jpg" alt="" class="slider__img">
+                    </div>
+                    <div class="slider__content">
+                        <h4 class="heading subtitle subtitle-bold">SEE THE UNMATCHED BEAUTY OF THE GREAT.</h4>
+                        <p class="desc">
+                            <a href="#">
+                                Free directories: directories are perfect for customers that are searching for...
+                            </a>
+                        </p>
+                        <div class="slider__add">
+                            <img src="./assets/img/author1.jpg" alt="" class="slider__portrait">
+                            <div class="slider__info">
+                                <p class="author">ALJA BRUN</p>
+                                <p class="date">20 Jan 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-slider slider__item">
+                    <div>
+                        <img src="./assets/img/img-4.jpg" alt="" class="slider__img">
+                    </div>
+                    <div class="slider__content">
+                        <h4 class="heading subtitle subtitle-bold">EFFECTIVE ADVERTISING POINTERS.</h4>
+                        <p class="desc">
+                            <a href="#">
+                                Having a home based business is a wonderful asset to your life...
+                            </a>
+                        </p>
+                        <div class="slider__add">
+                            <img src="./assets/img/author2.jpg" alt="" class="slider__portrait">
+                            <div class="slider__info">
+                                <p class="author">DOMINIC FREEMAN</p>
+                                <p class="date">13 Dec 2019</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="projects" class="section projects">
+            <h3 class="section__title">GALLERY</h3>
+            <div class="g-container">
+                <div class="d-col d-row test">
+                    <img src="./assets/img/gal1.jpg" alt="" class="img-gal big">
+                </div>
+                <div>
+                    <img src="./assets/img/gal2.jpg" alt="" class="img-gal">
+                </div>
+                <div>
+                    <img src="./assets/img/gal3.jpg" alt="" class="img-gal">
+                </div>
+                <div>
+                    <img src="./assets/img/gal4.jpg" alt="" class="img-gal">
+                </div>
+                <div>
+                    <img src="./assets/img/gal5.jpg" alt="" class="img-gal">
+                </div>
+            </div>
+
+            <button class="button button-gal" id="button-gal">SEE MORE</button>
+
+            <div class="g-container gal-more" id="gal-more">
+                <div>
+                    <img src="./assets/img/gal2.jpg" alt="" class="img-gal">
+                </div>
+                <div>
+                    <img src="./assets/img/gal3.jpg" alt="" class="img-gal">
+                </div>
+                <div class="d-col d-row">
+                    <img src="./assets/img/gal1.jpg" alt="" class="img-gal big">
+                </div>
+                <div>
+                    <img src="./assets/img/gal4.jpg" alt="" class="img-gal">
+                </div>
+                <div>
+                    <img src="./assets/img/gal5.jpg" alt="" class="img-gal">
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="contact" class="section contact">
+            <div id="map" class="map" ></div>
+
+            <div class="card">
+                <h3 class="section__title">GET IN TOUCH</h3>
+                <div class="card__content">
+                    <div class="card__contacts">
+                        <p>
+                            <a href="#">
+                                <i class="fa-solid fa-location-dot"></i> 91 Nolan Extensions Suite 670
+                            </a>
+                        </p>
+
+                        <p>
+                            <a href="tel:+0013568682454">
+                                <i class="fa-solid fa-phone"></i> +001 356-868-2454
+                            </a>
+                        </p>
+
+                        <p>
+                            <a href="mailto:montichello@service.com">
+                                <i class="fa-solid fa-inbox"></i> montichello@service.com
+                            </a>
+                        </p>
+
+
+                        <p>
+                            <a href="mailto:montichello@service.com">
+                                <i class="fa-regular fa-clock fa-flip-horizontal"></i>
+                                From 07:05AM to 19:30PM </a>
+                        </p>
+
+                    </div>
+
+                    <div class="form-wrapper">
+                        <form class="card__form">
+                            <input type="text" placeholder="Your name" required>
+                            <input type="email" placeholder="Email" required>
+                            <button type="submit" class="button submit">SUBMIT
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <div>
+                <div class="logo">
+                    <a href="./">
+                        <img src="./assets/img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <p class="footer__copyright">Copyrights © 2020 Montichello</p>
+            </div>
+
+            <ul class="social social-footer">
+                <li class="social__item">
+                    <a href="#" class="social__link">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+
+                <li class="social__item">
+                    <a href="#" class="social__link">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+
+                <li class="social__item">
+                    <a href="#" class="social__link">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/main.js"></script>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6uEudciGebB3ho_OUG4qXQhede2p8Jw8&callback=initMap&v=weekly"
+    defer
+  ></script>
+
+</body>
+
+</html>

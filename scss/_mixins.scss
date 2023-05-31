@@ -1,0 +1,37 @@
+@mixin flex($direction, $justify, $align, $gap) {
+    display: flex;
+    flex-direction: $direction;    
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
+
+@mixin background-img($img-path) {
+    background-image: url($img-path);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+@mixin absolute($top: 0, $left: 0) {
+    position: absolute;
+    top: $top;
+    left: $left;
+}
+
+@mixin font($font-family, $font-size, $font-weight, $line-height, $color) {
+    font-family: $font-family;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    line-height: $line-height;
+    color: $color;
+}
+
+@mixin titles($font-family: $font-titles, $font-size: 2.5rem, $font-weight: 700, $line-height: 123%, $color: $secondary-color, ) {
+    font-family: $font-family;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    line-height: $line-height;
+    color: $color;
+}
